@@ -71,9 +71,8 @@ def sum_cosines(n):
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
     total = 0
-    for k in range(n):
+    for k in range(n+1):
         total = total + math.cos(k)
-    total = total + math.cos(n)
     return total
 
 def run_test_sum_square_roots():
